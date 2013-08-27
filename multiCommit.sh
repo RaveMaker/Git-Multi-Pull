@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# Commit and Push all folders to GitHub repos
+# Commit and Push all folders to appropriate GitHub repositories
 #
 # Create by RaveMaker - http://ravemaker.net
 #
