@@ -5,9 +5,14 @@
 # by RaveMaker - http://ravemaker.net
 #
 
-# Settings
-DESTFOLDER="/MyGitRepositories/" # Where to Commit
-DEBUG="True" # True/False - Case Sensetive
+# Load settings
+if [ -f settings.cfg ] ; then
+    echo "Loading settings..."
+    source settings.cfg
+else
+    echo "ERROR: Create settings.cfg (from settings.cfg.example)"
+    exit
+fi;
 
 function DebugMode
 {
