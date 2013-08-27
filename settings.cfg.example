@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# --------------------------------------------------------
+# Create settings.cfg and updated your settings
+# --------------------------------------------------------
+
+# Settings
+DESTFOLDER="/MyGitRepositories/" # Where to Commit
+DEBUG="True" # True/False - Case Sensetive
