@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # Commit and Push all folders to appropriate GitHub repositories
 #
