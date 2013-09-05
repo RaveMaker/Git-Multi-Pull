@@ -2,7 +2,7 @@
 
 # Commit and Push all folders to appropriate GitHub repositories
 #
-# Create by RaveMaker - http://ravemaker.net
+# by RaveMaker - http://ravemaker.net
 #
 
 # Settings
