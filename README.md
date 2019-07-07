@@ -14,5 +14,6 @@ Commit and Push all folders to appropriate GitHub repositories
 
 
 
-by [RaveMaker][RaveMaker].
+Author: [RaveMaker][RaveMaker].
+
 [RaveMaker]: http://ravemaker.net
