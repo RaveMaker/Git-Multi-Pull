@@ -1,7 +1,7 @@
-GitHub-Multi-Commit
+Git-Multi-Pull
 ===================
 
-Commit and Push all folders to appropriate GitHub repositories 
+This script does 'git pull' in all repositories in a folder. 
 
 ### Installation
 
@@ -9,10 +9,13 @@ Commit and Push all folders to appropriate GitHub repositories
 
 2. Create settings.cfg from settings.cfg.example and change:
 
-- DESTFOLDER="/folder" - Where to Clone
-- DEBUG="False" - Optional Debug Mode (Active by default)
+```
+# Location of git repositories
+DEST_FOLDER="/My/Git/Repositories"
 
-
+# true/false. set to "false" to enable "git pull"
+DEBUG_MODE="true"
+```
 
 Author: [RaveMaker][RaveMaker].
 

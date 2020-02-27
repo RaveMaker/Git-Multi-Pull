@@ -3,5 +3,9 @@
 # --------------------------------------------------------
 
 # Settings
-DESTFOLDER="/MyGitRepositories/" # Where to Commit
-DEBUG="True" # True/False - Case Sensetive
+
+# Location of git repositories
+DEST_FOLDER="/My/Git/Repositories"
+
+# true/false. set to "false" to enable "git pull"
+DEBUG_MODE="true"
