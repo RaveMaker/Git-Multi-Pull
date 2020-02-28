@@ -21,7 +21,7 @@ For example assuming you have a few projects each with its own set of repos and 
 
 ### Installation
 
-1. Clone this script from github or copy the files manually to your prefered directory.
+1. Clone this script from github or copy the files manually to your preferred directory.
 
 2. Create settings.cfg from settings.cfg.example and change:
 
