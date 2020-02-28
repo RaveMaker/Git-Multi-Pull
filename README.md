@@ -4,12 +4,15 @@ Git-Multi-Pull
 This script does 'git pull' in all repositories in multiple folders.
 
 For example assuming you have a few projects each with its own set of repos and you want to update all of them:
+
+- add '/project1' to settings.cfg to include:
 ```
-# add '/prject1' to settings.cfg to include:
 /project1/repo1
 /project1/repo2
+```
 
-# add '/prject2' to settings.cfg to include:
+- add '/project2' to settings.cfg to include:
+```
 /project2/repo1
 /project2/repo2
 
