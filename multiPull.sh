@@ -26,8 +26,10 @@ function git-pull() {
   fi
 }
 
-for GIT_FOLDER in "$DEST_FOLDER"/*; do
-  if [ -d "$GIT_FOLDER" ]; then
-    git-pull
-  fi
+for DEST_FOLDER in "${DEST_FOLDERS[@]}"; do
+  for GIT_FOLDER in "$DEST_FOLDER"/*; do
+    if [ -d "$GIT_FOLDER" ]; then
+      git-pull
+    fi
+  done
 done

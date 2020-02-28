@@ -4,8 +4,8 @@
 
 # Settings
 
-# Location of git repositories
-DEST_FOLDER="/My/Git/Repositories"
+# Array of folders containing multiple git repositories
+DEST_FOLDERS=("/My/Public/Repositories" "/My/Private/Repositories")
 
 # true/false. set to "false" to enable "git pull"
 DEBUG_MODE="true"
